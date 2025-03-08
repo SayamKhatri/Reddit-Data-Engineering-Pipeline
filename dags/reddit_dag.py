@@ -7,6 +7,7 @@ plugins_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../plugi
 sys.path.append(plugins_path)
 
 from reddit_pipeline import reddit_pipeline
+from aws_pipeline import aws_pipeline
 
 default_args={
     'owner' : 'Sayam Khatri',
@@ -31,7 +32,16 @@ extract = PythonOperator(
         'time_filter' : 'day',
         'limit' : 100
     },
+    provide_context = True,
+    dag = dag1
+    
+)
+
+load = PythonOperator(
+    task_id= 'load_to_s3',
+    python_callable= aws_pipeline,
+    provide_context = True,
     dag = dag1
 )
 
-extract
+extract >> load
