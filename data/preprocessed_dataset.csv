@@ -1,0 +1,275 @@
+id,title,selftext,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1j5u4i1,I built a data pipeline to ingest every movie ever made – Because why not?,"Ever catch yourself thinking, ""What if I had a complete dataset of every movie ever made?"" Same here! So instead of getting a good night's sleep, I decided to create a data pipeline with Apache Airflow to scrape, clean, and compile ALL movies ever made into one database.  
+  
+Why go through all that trouble? I needed solid data for a machine learning project, and the datasets out there were either incomplete, all over the place, or behind paywalls. So, I dove in and automated the entire process.  
+  
+Tech stack: Using Airflow to manage API calls and a PostgreSQL database to store the results.  
+  
+What’s next? I’ll be working on feature engineering for ML models, cleaning up duplicates, adding extra metadata, and maybe throwing in some fun visualizations. Also, it might not be a bad idea to expand to other types of media (video games, anime, music etc.).  
+  
+What I discovered:
+
+I need to switch back to Linux.  
+Movie metadata is a total mess. No joke.  
+The first movie ever released was in 1888 called *Accordion Player.*  
+Airflow is a lifesaver, but it also teaches you that nothing is ever really ""finished.""  
+There’s a fine line between a ""side project"" and full-on obsession.
+
+  
+Just a heads up: This project pulls data from TMDB and is **purely for personal and educational use**, not for profit.  
+  
+If this sounds interesting, I’d love to hear your thoughts, feedback, and any wild ideas you might have! Got any cool use cases for a massive movie database? And if you enjoy this kind of project, GitHub stars are always appreciated.  
+  
+Here’s the repo: [https://github.com/rat-nick/film-data-ingestion-pipeline](https://github.com/rat-nick/film-data-ingestion-pipeline)  
+  
+Can’t wait to hear what you think!",124,17,ComplexDiet,2025-03-07 17:20:17,https://www.reddit.com/r/dataengineering/comments/1j5u4i1/i_built_a_data_pipeline_to_ingest_every_movie/,False,False,False,False
+1j5ylry,My DE role feels like it's getting less technical over time. Has this happened to anybody else? I'm confused as to how to progress,"I've been working in ""data analytics"" for nearly 7 years and realized on the job that I enjoy coding and coming up with technical solutions more than I do finding ""business insights"" with data. I got my first DE role a year ago and even the job description made it sound like this role was meant to be technical in that they expected proficiency in a programming language, cloud and an computer science or IT background. I do not have a formal CS education, but I have a lot of years of experience and domain expertise.
+
+However, as I'm progressing in this role, the only thing I've been doing so far is parsing out extremely complicated business requirements that aren't properly explained into SQL. We use AWS, but I rarely interact with it, even though I hoped that this role will stregthen my cloud skills. I feel like two things that need strong work is our documentation and coding practices. I'm learning things in my own time outside of work and have some ideas that I shared with my manager who seems to be supportive. However, at the same time, I think they have strong desires that rather than focusing so much on technical stuff, we instead focus more on business needs rather than coding itself, which to me feels like I'm evolving into a business analyst/project manager more than I am into a data engineer. I also see some interest on my team to implement text-to-sql platforms, which seems like they're interested in a low/no code direction here.
+
+I get where they are coming from in theory, but it feels kind of optimistic in practice. I feel like we don't have good/standard practices with our coding to begin with that fluency in business requirements is not going to solve alone. I also feel like actually doing the coding informs how to best get to the business needs-to me, it's not one way, but a complimentary flow. I have been communicating this with my boss but finding myself increasingly disappointed. Is this how data engineering is in other places or could am I not in the right setting?",52,15,thro0away12,2025-03-07 19:59:04,https://www.reddit.com/r/dataengineering/comments/1j5ylry/my_de_role_feels_like_its_getting_less_technical/,False,False,False,False
+1j6esqt,What mistakes did you make in your career and what can we learn from them.,"Mistakes in your data engineering career and what can we learn from them.
+
+Confessions are welcome.
+
+Give newbie’s like us a chance to learn from your valuable experiences.",19,13,Harvard_Universityy,2025-03-08 10:58:08,https://www.reddit.com/r/dataengineering/comments/1j6esqt/what_mistakes_did_you_make_in_your_career_and/,False,False,False,False
+1j5xxhh,Which skillsets has a chance of High paying,"I was trained on Azure, Databricks, Pyspak, Python and SQL but i was allocated to a project and asked me to learn different tools which I'm new to Informatica & Oracle. 
+
+Now I'm worried that, after working with these tools like informatica & oracle will i have a chance of getting a High paying job Maybe after 2-3YOE. (People are saying that Azure, Databricks and spark are on demand)
+
+I'm requesting my manager if there's any chance i could support the project with skillsets i got trained. I'm unable to make a decision whether to ask my manager and get into Azure, Databricks and spark if i had a chance or stick with informatica & oracle? 
+
+Can someone suggest what to do? I would appreciate any kind of advice! Correct me if I'm thinking wrong.
+
+Note:- I'm a fresher jst starting my career in DE and I'm looking forward to a High paying job in the field of DE after gaining few YOE",19,20,Appropriate-Low4483,2025-03-07 19:35:08,https://www.reddit.com/r/dataengineering/comments/1j5xxhh/which_skillsets_has_a_chance_of_high_paying/,False,False,False,False
+1j5vmx2,Which open-source repo would you contribute to if you had free time?,"Are there any interesting and active projects you'd love to contribute to (or maybe you already are) by adding new features or solving issues using your data engineering and programming skills?
+
+A few that come to mind are Dagster, FastAPI, or maybe some lesser-known, emerging projects with strong potential.",15,24,Xavio_M,2025-03-07 18:13:32,https://www.reddit.com/r/dataengineering/comments/1j5vmx2/which_opensource_repo_would_you_contribute_to_if/,False,False,False,False
+1j66s7j,Open-Source ETL to prepare data for RAG 🦀 🐍,"I’ve built an open source ETL framework (CocoIndex) to prepare data for RAG with my friend. 
+
+# 🔥 Features:
+
+* Data flow programming
+* Support custom logic - you can plugin your own choice of chunking, embedding, vector stores; plugin your own logic like lego. We have three examples in the repo for now. In the long run, we also want to support dedupe, reconcile etc.
+* Incremental updates. We provide state management out-of-box to minimize re-computation. Right now, it checks if a file from a data source is updated. In future, it will be at smaller granularity, e.g., at chunk level. 
+* Python SDK (RUST core 🦀 with Python binding 🐍)
+
+🔗 **GitHub Repo**: [CocoIndex](https://github.com/cocoindex-io/cocoindex)
+
+Sincerely looking for feedback and learning from your thoughts. Would love contributors too if you are interested :) Thank you so much!",13,3,Royal-Fix3553,2025-03-08 02:13:49,https://www.reddit.com/r/dataengineering/comments/1j66s7j/opensource_etl_to_prepare_data_for_rag/,False,False,False,False
+1j6ei1w,I need to take a technical exam tomorrow and I don’t think I’ll pass,"The testing framework is “testdome” and it’s a the exam is suppose to be a mix of data warehousing, SQL and python.
+
+Doing the example questions, I’m doing really well I’m the sql ones.
+
+But the data warehousing and python ones I keep failing. Turns out, I though I knew sone python but barely know it.
+
+Probably gonna fail the exam and not get the role (which sucks since my team and I were made redundant at my last work place) 
+
+Maybe I can convince them to make me a junior Data engineer as I’m very confident in my sql.
+
+Edit: can anyone share there experience using testdome for the actual technical exam, not just the example questions. How did you find it?",12,2,MegaTDog9998,2025-03-08 10:35:37,https://www.reddit.com/r/dataengineering/comments/1j6ei1w/i_need_to_take_a_technical_exam_tomorrow_and_i/,False,False,False,False
+1j5vei0,Difficulty in creating a basic ETL with AWS Glue?,"I have solid experience with SSIS and ADF, and I'm a pretty quick learner when it comes to using different data tools.
+
+With that said, how difficult would it be to learn how to create the simplest ETL that, for example, takes a CSV file and dumps it to sql server or any other RDBMS?",5,9,East_Sentence_4245,2025-03-07 18:04:25,https://www.reddit.com/r/dataengineering/comments/1j5vei0/difficulty_in_creating_a_basic_etl_with_aws_glue/,False,False,False,False
+1j68rcv,Data Modelling for Power BI,"I primarily work with Power BI but am looking to start developing dimension tables. I am looking to build a STAR schema model and am struggling with the organisation dimension. I have a fact table that contains the business unit codes and description for each of the 5 levels of the organisation totaling 10 columns for organisation attributes. I would like to be able to replace these 10 columns with a single column that can be used to form a relationship between the fact and a denormalised organisation dimension. 
+
+Currently there are 5 normalised 'reference' tables for each level of the hierarchy but there appears to be errors in them. It seems like they've used a Type 2 SCD approach but haven't applied a surrogate key to differentiate between the versions so there's no column with unique values required for forming relationships in Power BI if I decided to go with a snowflaking schema instead. Also the active flags are incorrect in some cases with end dates in the past still being set to active rows. 
+
+I came across a Type 6 dimension in Kimball's book which would be ideal to accommodate restructures as I have certain metrics which requires 12 months of continuous data so if a tier 2 business unit becomes part of a brand new tier 1 business unit, having a column that captures the current tier 1 and overwrites the tier 1 value for previous records in this column and another that captured the tier 1 at the time of the row creation would be super helpful.
+
+However, I'm struggling with the HOW aspect but am considering the following process:
+
+1. I will base my source of truth on the system used to publish our organisational hierarchy online.
+2. Pull data daily and put into temporary reference tables.
+3. For each reference table I will compare it with the temporary one and I will look to check if there's any new additions, disestablished units, or changes in their parent/child relationship and then make appropriate changes to the permanent reference table which should also have a surrogate key added.
+4. For new additions, add a new row. For disestablished units, close off the end date and set the flag as inactive. I'd assume dependent units below will either be disestablished too or reassigned to a new unit. For changes to parent, I would need to add a new row, close off the previous, and overwrite the current column with the new value for any previous rows.
+5. Finally I would join them together in a view/table and add a unique identifier for each row which would then be used in the fact tables replacing the previous 10 columns with 1.
+
+I feel like there's a lot of considerations I still need to factor in but is the process at least on the right path (I've attached a couple images of the proposed vs current situation). The next stage would be considering how to implement this dimension for fact table generated by different source systems each generating different natural keys for the same business unit
+
+",4,0,Dezmond95,2025-03-08 04:03:02,https://www.reddit.com/r/dataengineering/comments/1j68rcv/data_modelling_for_power_bi/,False,False,False,False
+1j5y3nz,Databricks Orchestration,"Those of you who’ve used Databricks and open source orchestrators — how well do Databricks’ native orchestration capabilities compare to something like Airflow, Dagster or Prefect? Moreover, how well do its data lineage and observability features compare to that of let’s say Dagster’s?",3,2,EarthGoddessDude,2025-03-07 19:41:05,https://www.reddit.com/r/dataengineering/comments/1j5y3nz/databricks_orchestration/,False,False,False,False
+1j6gh1p,"Looking for Courses on Spark Internals, Optimization, and AWS Glue","Hi all,
+
+I’m looking for recommendations on a good Spark course that dives into its internals, how it processes data, and optimization techniques.
+
+My background:
+
+	• I’m proficient in Python and SQL.
+	• My company is mostly an AWS shop, and we use AWS Glue for data processing.
+	• We primarily use Glue to load data into S3 or extract from S3 to S3/Redshift.
+	• I mostly write Spark SQL as we have a framework that takes Spark SQL.
+	• I can optimize SQL queries but don’t have a deep understanding of Spark-specific optimizations or how to determine the right number of DPUs for a job.
+
+I understand some of this comes with experience, but I’d love a structured course that can help me gain a solid understanding of Spark internals, execution plans, and best practices for Glue-specific optimizations.
+
+Any recommendations on courses (Udemy, Coursera, Pluralsight, etc.) or other resources that helped you would be greatly appreciated!
+
+Thanks in advance :)",3,1,mostly_harmless_10,2025-03-08 12:49:12,https://www.reddit.com/r/dataengineering/comments/1j6gh1p/looking_for_courses_on_spark_internals/,False,False,False,False
+1j6br3a,Palantir Foundry Data Engineering Certification,"Has anyone here completed the Data Engineer Certification from Palantir Foundry? If so, please share your experience!
+	1.	How does the difficulty level compare to other data engineering certifications like Databricks, SnowPro Core, or Snowflake DE?
+	2.	What study materials did you use besides the official certification guide?
+	3.	Is it necessary to go through the entire documentation to pass the exam?
+4. How long did you have to spend in preparation?
+5. How much experience did you have when you attempted the exam?",3,1,sneekeeei,2025-03-08 07:11:29,https://www.reddit.com/r/dataengineering/comments/1j6br3a/palantir_foundry_data_engineering_certification/,False,False,False,False
+1j6i20l,Pipeline Options,"I'm at a startup with a postgres database + some legacy python code that is ingesting and outputting tabular data.
+
+The postgres-related code is kind of a mess, also we want a better dev environment so we're considering a migration. Any thoughts on these for basic tabular transforms, or other suggestions?
+
+1. dbt + snowflake
+2. databricks
+3. palantir foundry (is expensive?)",2,6,enigmo,2025-03-08 14:16:06,https://www.reddit.com/r/dataengineering/comments/1j6i20l/pipeline_options/,False,False,False,False
+1j6fu4j,Datawarehouse Architecture,"I am trying to redesign the current data architecture we have in place at my work.
+
+Current Architecture:
+
+- Store source data files on an on-premise server
+
+- We have a on-premise SQL server. There are three types of schema on this SQL server to differentiate between staging, post staging and final tables. 
+
+- We run some SSIS jobs in combination with python scripts to pre-process, clean and import data into SQL server staging schema. These jobs are scheduled using batch scripts.
+
+- Then run stored procedures to transform data into post staging tables.
+
+- Lastly, aggregate data from post staging table into big summary tables which are used for machine learning
+
+The summary tables are several millions rows and aggregating the data from intermediate tables takes several minutes. We are scaling so this time will increase drastically as we onboard new clients. Also, all our data is consumed by ML engineers, so I think having an OLTP database does not make sense as we depend mostly on aggregated data.
+
+My proposition:
+- Use ADF to orchestrate the current SSIS and python jobs to eliminate batch scripts.
+- Create a staging area in data warehouse such as Databricks. 
+- Leverage spark instead of stored procedures for transforming data in databricks to create post staging tables.
+- Finally aggregate all this data into big summary tables. 
+
+Now I am confused about where to keep the staging data? 
+Should I just ingest data onto on-premise SQL server and use databricks to connect to this server and run transformations? Or do I create my staging tables within databricks itself? 
+
+Two reasons to keep staging data on premise: 
+- cost to ingest is none
+- Sometimes the ML engineers need to create adhoc summary tables from post staging tables, and this will be costly operations in databricks if they do this very often
+ 
+What is the best way to proceed? And also any suggestions on my proposed architecture?",2,7,Maleficent-Gas-5002,2025-03-08 12:09:43,https://www.reddit.com/r/dataengineering/comments/1j6fu4j/datawarehouse_architecture/,False,False,False,False
+1j68y2u,Seeking Advice for Replacing Company Technology Stack,"# Intro and what I'm hoping to get help for:
+
+Hello! I'm hoping to get some advice and feedback for some good technology solutions to replace the current stack we use at my work.
+
+I am a tech lead at a software company where we build platforms for fairly large businesses. The platform itself runs on an MS SQL Server backend, with .NET and a bunch of other stuff that isn't super relevant to this post. The platform is customer centric and maintains full client data, history, and transactional history.
+
+Several years ago I transitioned into the team responsible for migrating the client data onto our platform (directly into the SQL Server) as part of the delivery, and I'm now in a lead position where I can drive the technology decisions. 
+
+# Details of what we currently do:
+
+Our migrations are commonly anywhere from a few hundred thousand customers to a million or so (our largest was around 1.5 million in a single tranche from memory) and our transactional data sets are probably on average a several hundred million with the largest being a couple of billion.
+
+Our ETL process has evolved over time and become quite mature, but our underlying technology has not in my opinion. We are using SSIS for 95% of stuff, and by this I mean like full on using all of the SISS components for all transformations, not just using stored procs wrapped in source components.
+
+I am completely exhausted by it and absolutely need a change. There are so many issues with SSIS that I probably don't need to convince anyone on this sub of, but especially in the way we use it. Our platforms are always slightly customised for each client so we can't just transform the client data into a standard schema and load it in, the actual targets are often changing as well, and SSIS just doesn't scale well for quick development and turn around of new implementations, reuse or even having multiple developers working on it at once (good luck doing a git merge of your 10 conflicted dtsx files).
+
+From a technical perspective I'm convinced we need a change, but migrations are not just technical, the process, risk acceptance, business logic, audit etc etc are all just as fundamental so I will need to be able to convince management that if we change technology, we will still be able to maintain the overall mature process that we have.
+
+# Requirements
+
+At a super high level our pipelines often look something like:
+
+1. Extract from any sort of source system (files, direct DB, DB backups etc)
+2. Stage raw extracted data into separate ETL SQL Server (outside of the platform production)
+3. Several layers of scoping, staging, transformations to get data into our standardised schema format
+4. Audit / Rec Reports, retrieve sign off from clients
+5. Validation
+6. Audit / Rec Reports, retrieve sign off from clients
+7. Transform into target platform format
+8. Audit / Rec Reports (internal only)
+9. Load to target
+10. Audit / Rec Reports (retrieve sign off from clients)
+
+Because of the way SSIS loads from and to existing SQL tables, the above means that we have data staged at every layer so analysts and testers can always view the data lineage and how it transformed over time.
+
+Another key thing is that if we ever have to hotfix data, we can start the process from any given layer.
+
+These servers and deployments are hosted in on prem data centres that we manage.
+
+At least to start off with, I doubt I could convince business management to move away very far from this process, even though I don't think we would necessarily need to have so many staging layers, and I think if it made sense moving the pipeline to cloud servers rather than on prem could be convinced.
+
+# Options
+
+Currently I am heavily leaning to towards Spark with Python. Reasons would along the lines of:
+
+* Python is very fast to implement and make changes
+* Scales very well from an implementation perspective, i.e. it would be reasonable to have several developers working within the same python modules for transactions across different entities, whereas SSIS is a nightmare
+* Reuse of logic is extremely easy, can make a standard library of common transformations and just import
+* Can scale performance of the load by adding new machines to the spark cluster, which is handy because our data volumes are often quite varied between projects
+
+I've created a few PySpark demo projects locally and it's fantastic to use (and honestly just a joy to be using python again), but one thing I've noticed is that Spark isn't precious about loading data, it'll happily keep everything in dataframes until you need to do something with it.
+
+This makes all of our staging layers from the above process slightly awkward, I.e. it's a performance hit to load data to an SQL Server, but if I wanted to maintain the above process so that other users would be able to view the data lineage, and even hotfix + start from point of failure, I would need to design the Spark pipeline to constantly be dumping data to SQL Server which seems potentially redundant.
+
+As for other options, I don't want to go anywhere near AzureDataFactory - it kind of just seems like a worse version of SSIS to be honest. I've looked at Pandas but it seems like for our volumes Spark is probably better. There were a bunch of other things I briefly looked at, but many of them seem to be more Data Warehouse / Data Lake related which is not what we're doing here, it's a pure ETL pipeline
+
+# End
+
+I would super appreciate to hear from anyone much smarter and more experienced than me if I am on the right track, any other options that might be suitable for my use case, and any other general thoughts whatsoever.
+
+Sorry for the massive post but thankyou if you made it all the way to the end!",2,4,_Riv_,2025-03-08 04:13:45,https://www.reddit.com/r/dataengineering/comments/1j68y2u/seeking_advice_for_replacing_company_technology/,False,False,False,False
+1j646p0,LLM fine-tuning and inference on Airflow,"Hello! I'm a maintainer of the [SkyPilot](https://github.com/skypilot-org/skypilot) project.
+
+I have put together a demo showcasing how to run LLM workloads (fine-tuning, batch inference, ...) on Airflow with dynamic resource provisioning. GPUs are spun up on the cloud/k8s when the workflow is invoked and terminated when it completes: https://github.com/skypilot-org/skypilot/tree/master/examples/airflow
+
+Separating the job execution from the workflow execution with SkyPilot also makes the dev->prod workflow easier. Instead of having to debug your job by updating the airflow DAG and running it on expensive GPU workers, you can use `sky launch` to test and debug the specific job before you inject it in your airflow DAG. 
+
+I'm looking for feedback on this approach :) Curious to hear what you think!",2,2,Maleficent_Scar,2025-03-08 00:01:58,https://www.reddit.com/r/dataengineering/comments/1j646p0/llm_finetuning_and_inference_on_airflow/,False,False,False,False
+1j5ujo4,Job or Studies,"Hello, 
+
+I currently find myself facing a dilemma. In 2024, I obtained a bachelor's degree in physics from the University of Mons (Belgium), but I recently dropped out of my second-year master's in physics because I couldn't take it anymore (too theoretical, with few opportunities outside of research).
+
+Lately, I've been interested in the field of data, so I started a three-month training program. This program is now coming to an end, and I'm wondering what is the best next step for my career.
+
+I'm hesitating between:
+
+* Going back to school to get a master's in data.
+* Finding an internship to gain my first professional experience
+
+In Belgium, most data science jobs require a master's, but abroad, a bachelor's is often enough. Since I'm already 24, what do you think would be the best option? I could do a part-time online master's at UHasselt while working on the side or take the MIT MicroMaster in Statistics and Data Science on EdX.
+
+Thanks in advance for your advice!",1,2,Away_Juggernaut4860,2025-03-07 17:34:38,https://www.reddit.com/r/dataengineering/comments/1j5ujo4/job_or_studies/,False,False,False,False
+1j63jil,web events generator,"anyone know of a website that allows you to lets say add an sdk and will send dummy events to it?
+
+i dont want to spend time on this if i dont have to, and rather focus on testing out the events management etc.",0,1,wketl,2025-03-07 23:31:08,https://www.reddit.com/r/dataengineering/comments/1j63jil/web_events_generator/,False,False,False,False
+1j5twse,Help with Databricks project,"Hi All, I am preparing for job change, i am in a unique situation, the project which I worked on my company uses databricks for ingestion, data factory for orchestration, sql server managed instance as warehouse that runs tsql scripts(Transformations).
+
+My profile is not getting shortlisted for databricks role or azure data engineer role.
+
+I want to build a end to end project in databricks using data lakehouse and medallion architecture.
+
+Can you please correct me if my approach is correct.
+
+1. Files landed into adls
+2. Write databricks notebook to clean data, do quality checks etc and store as parquet file(partition by ingestion date)
+3. Load the parquet file data using sql code written in notebook into bronze layer(schema) delta tables built in sql warehouse.
+4. Write another set of notebook with sql to move data into silver layer
+5. Write sql notebooks again apply some aggregation, transformation and load data into gold layer.
+6. Orchestrate run using jobs.
+
+Is this close to a project that a company use, love to hear how you guys implemented in your company.
+
+Thanks in advance.",0,2,Careless_Adda,2025-03-07 17:12:56,https://www.reddit.com/r/dataengineering/comments/1j5twse/help_with_databricks_project/,False,False,False,False
+1j629yd,Job in Data as a WHV,"Hello I'm not sure if this is the right place to ask this, feel free to tell me off.
+
+I'm a french citizen on a working holiday visa in Australia and I'm trying to get a job in Data Engineering specifically as an ETL Developer (I have 8 years of experience) I've read a few threads saying it is going to be rough and I'm prépared for that.
+
+My question if anyone is working in Australia in Data Engineering: Is it even possible to find a job as a WHV holder ? Have you heard or seen something liké that in your company ?
+
+Also is there something more that I can do aside from SEEK Indeed and LinkedIn ? are there companies I can show up at with my CV ?
+
+Thank you for Reading.
+",0,1,haguenz,2025-03-07 22:32:58,https://www.reddit.com/r/dataengineering/comments/1j629yd/job_in_data_as_a_whv/,False,False,False,False
+1j5zqsr,Flowfile v0.1.4 Released: Multi-Flow Support & Formula Enhancements,"Just released v0.1.4 of Flowfile - the open-source ETL tool combining visual workflows with Polars speed.
+
+**New features:**
+
+* Multiple flow support (like Alteryx, but free and open-source)
+* Formula node with real-time feedback, autocomplete for columns/functions
+* New text aggregations in Group By/Pivot nodes (concat, first, last)
+* Improved logging and stability
+
+If you're looking for an Alteryx alternative without the price tag, check out https://github.com/Edwardvaneechoud/Flowfile. Built for data people who want visual clarity with Polars performance.",0,1,Proof_Difficulty_434,2025-03-07 20:39:05,https://www.reddit.com/r/dataengineering/comments/1j5zqsr/flowfile_v014_released_multiflow_support_formula/,False,False,False,False
+1j5u95q,Data Eng. related Slack channel?,I was told it's easy to network to find data engineering jobs via data engineering slack channels. Anyone here have any recommendations? Thanks in advance.,0,1,dataDiva120,2025-03-07 17:24:36,https://www.reddit.com/r/dataengineering/comments/1j5u95q/data_eng_related_slack_channel/,False,False,False,False

@@ -30,7 +30,7 @@ extract = PythonOperator(
         'file_name' : f'reddit_{file_postfix}',
         'subreddit' : 'DataEngineering',
         'time_filter' : 'day',
-        'limit' : 100
+        'limit' : 10000
     },
     provide_context = True,
     dag = dag1
