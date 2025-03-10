@@ -36,10 +36,13 @@ This project deploys a robust data engineering pipeline leveraging AWS cloud inf
    ```bash
    git clone https://github.com/SayamKhatri/Reddit-Data-Engineering-Pipeline.git
    ```
+   
 2. **Configure AWS Credentials**
    - Set up AWS CLI and configure access keys.
+     
 3. **Deploy Infrastructure**
    - Use provided CloudFormation templates or Terraform scripts.
+     
 4. **Build & Run Docker Containers**
    ```bash
    docker build -t reddit-etl .
